@@ -1,9 +1,9 @@
 <?php return array(
     'root' => array(
         'name' => 'ergasti/smerece',
-        'pretty_version' => '1.0.0+no-version-set',
-        'version' => '1.0.0.0',
-        'reference' => NULL,
+        'pretty_version' => 'dev-master',
+        'version' => 'dev-master',
+        'reference' => '58cac0e933035ea1cb3206a9e932109f67d6fe7e',
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -11,13 +11,46 @@
     ),
     'versions' => array(
         'ergasti/smerece' => array(
-            'pretty_version' => '1.0.0+no-version-set',
-            'version' => '1.0.0.0',
-            'reference' => NULL,
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
+            'reference' => '58cac0e933035ea1cb3206a9e932109f67d6fe7e',
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
             'dev_requirement' => false,
+        ),
+        'johnpbloch/wordpress' => array(
+            'pretty_version' => '6.0.1',
+            'version' => '6.0.1.0',
+            'reference' => '185dfc9f49aa48efb4f345a042e78e5003d9b6a2',
+            'type' => 'package',
+            'install_path' => __DIR__ . '/../johnpbloch/wordpress',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'johnpbloch/wordpress-core' => array(
+            'pretty_version' => '6.0.1',
+            'version' => '6.0.1.0',
+            'reference' => '163eec26760f7d2cac040e04f00ce548cd303eb1',
+            'type' => 'wordpress-core',
+            'install_path' => __DIR__ . '/../../wordpress',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'johnpbloch/wordpress-core-installer' => array(
+            'pretty_version' => '2.0.0',
+            'version' => '2.0.0.0',
+            'reference' => '237faae9a60a4a2e1d45dce1a5836ffa616de63e',
+            'type' => 'composer-plugin',
+            'install_path' => __DIR__ . '/../johnpbloch/wordpress-core-installer',
+            'aliases' => array(),
+            'dev_requirement' => false,
+        ),
+        'wordpress/core-implementation' => array(
+            'dev_requirement' => false,
+            'provided' => array(
+                0 => '6.0.1',
+            ),
         ),
     ),
 );

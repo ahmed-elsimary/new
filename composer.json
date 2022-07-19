@@ -12,5 +12,12 @@
             "email": "ahmed.s@ergasti.com"
         }
     ],
-    "require": {}
+    "require": {
+        "johnpbloch/wordpress": "^6.0"
+    },
+    "config": {
+        "allow-plugins": {
+            "johnpbloch/wordpress-core-installer": true
+        }
+    }
 }

@@ -20,6 +20,16 @@ class ComposerStaticInit0dc0638550282f10050836a7f64b7ad8
         ),
     );
 
+    public static $prefixesPsr0 = array (
+        'j' => 
+        array (
+            'johnpbloch\\Composer\\' => 
+            array (
+                0 => __DIR__ . '/..' . '/johnpbloch/wordpress-core-installer/src',
+            ),
+        ),
+    );
+
     public static $classMap = array (
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
     );
@@ -29,6 +39,7 @@ class ComposerStaticInit0dc0638550282f10050836a7f64b7ad8
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit0dc0638550282f10050836a7f64b7ad8::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit0dc0638550282f10050836a7f64b7ad8::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit0dc0638550282f10050836a7f64b7ad8::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit0dc0638550282f10050836a7f64b7ad8::$classMap;
 
         }, null, ClassLoader::class);
