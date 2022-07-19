@@ -1,0 +1,16 @@
+{
+    "name": "ergasti/smerece",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Ergasti\\Smerece\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ahmed-elsimary",
+            "email": "ahmed.s@ergasti.com"
+        }
+    ],
+    "require": {}
+}
