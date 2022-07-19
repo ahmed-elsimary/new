@@ -11,12 +11,20 @@ class ComposerStaticInit0dc0638550282f10050836a7f64b7ad8
         array (
             'Ergasti\\Smerece\\' => 16,
         ),
+        'C' => 
+        array (
+            'Composer\\Installers\\' => 20,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Ergasti\\Smerece\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
+        ),
+        'Composer\\Installers\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/composer/installers/src/Composer/Installers',
         ),
     );
 
